@@ -11,7 +11,7 @@ config.set_authentication_policy(authn_policy)
 config.set_authorization_policy(authz_policy)
 
 def hello_world(request):
-    return Response('Hello pyramid!')
+    return Response('Hello pyramid certificate!')
 
 
 if __name__ == '__main__':
